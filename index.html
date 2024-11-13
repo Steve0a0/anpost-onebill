@@ -384,6 +384,18 @@
             font-size: 1.2rem;
             cursor: pointer;
         }
+        .custom-section {
+    width: 100vm; /* Full viewport width */
+    overflow: hidden; /* Hide any overflow for a clean look */
+    padding: 0; /* Remove padding for a full-width effect */
+    margin: 0; /* Remove margin to fit exactly */
+}
+
+.custom-section img.section-image {
+    width: 99.9%; /* Make image take up full width */
+    height: auto; /* Maintain aspect ratio */
+    display: block; /* Removes any extra space below the image */
+}
    /* Media queries for responsiveness */
    @media (max-width: 992px) {
             .navbar-text {display: none;}
